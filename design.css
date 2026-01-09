@@ -281,3 +281,54 @@ header {
     margin-top: 16px;
     margin-bottom: 80px;
 }
+
+footer{
+    background-color: #001931;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 120px 80px 120px ;
+}
+
+.social h4{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.icon-list{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: 16px;
+}
+.icon-list .ic{
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    text-decoration: none;
+} 
+    
+.ic a i{
+    color: #000000;
+}
+
+hr {
+border: none;
+border-top: 1px solid #E5E7EB;
+margin-bottom: 15px;
+width: 1360px;
+margin: 0 auto;}
+
+.copyright {
+text-align: center;
+line-height: 24px;
+color: #FAFAFA;
+font-size: 16px;
+padding-bottom: 30px;
+padding-top: 30px;
+
+}
